@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+body{background-color:#666;}
+
+.img{margin-top:2em;
+margin-bottom:1em;
+margin-left:1em;} 
+
+
+h1{font-family:"Arial Black", Gadget, sans-serif;
+font-size:50px;
+color:Black;
+margin-top:45px;
+padding-left:6em;}
+
+p{font-family:Arial, Helvetica, sans-serif;
+font-size:24px;
+color:#000;
+margin-left:2em;}
+
+
+#wrapper {
+	background-color:#000;
+	width: 960px; 
+	text-align: left; 
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+#header {
+	background-color:#FF0;
+	height: 200px;
+	width: 960px;
+	position: absolute;
+	top: -39px;
+	left: -1px;
+}
+
+#main{
+	background-color:#6FF;
+	height: 600px;
+	width: 600px;
+	float: right;
+	padding-right:10em;
+	margin-top:10em;
+	margin-bottom: 45px;
+}
+#sidebar {
+	background-color:#C0F;
+	margin-top:10em;
+	height: 600px;
+	width: 20%;
+	clear: left;
+	float: left;
+}
+#footer {
+	background-color:#F03;
+	height: 100px;
+	width: 960px;
+	clear: both;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	
+}
